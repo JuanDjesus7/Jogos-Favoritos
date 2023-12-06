@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kadwa&family=Lilita+One&family=Montserrat:wght@400;600&family=Ms+Madi&family=Nosifer&family=Noto+Serif:ital,wght@0,300;1,300&family=PT+Serif:wght@700&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    padding: 4% 0% 0% 16%;
+    background-color: black;
+}
+.cabecalho__links__links{
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+}
+.inicio{
+    display: flex;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    color:peru;
+    font-family: 'PT Serif', serif;
+}
+.cont{
+    display: flex;
+    justify-content:space-evenly;
+    
+
+}
+.imagem{
+    padding: 4% 0% 3% 0%;
+    height: 300px;
+}
+.conteiner{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: left;
+}
+.lik{
+    text-decoration: none;
+
+    border: 10px solid purple;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    color:aqua;
+}
+
+.lik:hover{
+    background-color: blue;
+    color: greenyellow;
+}
+
+.principal{
+    background-image: url(fundo.webp);
+    background-size: cover;
+}
+
+
+
+.red{
+    background-image: url(wallred.jpg);
+    background-size: cover;
+}
+.cavalo{
+    display: flex;
+    justify-content: center;
+    padding: 4% 0% 3% 0%;
+}
+
+
+
+.atreus{
+    background-image: url(gofcapa.jpg);
+    background-size: cover;
+}
+
+
+.ellie{
+    background-image: url(TLOU-2-4K.jpg);
+    background-size: cover;
+}
+
+.titulo1{
+    text-align: center;
+    font-size: 40px;
+    color:black;
+    font-family: 'PT Serif', serif;
+}
+.titulo2{
+    text-align: center;
+    font-size: 40px;
+    color:blue;
+    font-family: 'PT Serif', serif;
+}
+.titulo3{
+    text-align: center;
+    font-size: 40px;
+    color:green;
+    font-family: 'PT Serif', serif;
+}
